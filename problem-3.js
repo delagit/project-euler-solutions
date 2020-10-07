@@ -7,7 +7,7 @@ What is the largest prime factor of the number 600851475143 ?
 
 function largestPrimeFactor(number){
     let primesFactor = [];
-    for(iterator = 500000000000; iterator <= number; iterator++){
+    for(iterator = 0; iterator <= number; iterator++){
         let isFactor = number % iterator === 0;
         let prime = true;
 
